@@ -1,0 +1,258 @@
+:root{
+    --main-color:#2196F3;
+    --popular-color:#FFFFFF;
+    --rare-color:#757575;
+    --background-color: #F5F4FA;
+    --typical-lh: 1.19;
+    --def-letter-spacing: 0.03em;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#757575;
+    letter-spacing: 0.06em;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+/* ------------- Header --------------- */
+
+.header-logo{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: var(--typical-lh);
+        letter-spacing: var(--def-letter-spacing);
+        text-decoration: none;
+
+        color: var(--main-color);
+}
+.header-logotype{
+    color: #000000;
+}
+.list{
+    list-style: none;
+}
+.header-link{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        
+        color: #212121;
+}
+
+.header-link:hover,
+.header-link:focus{
+    color: var(--main-color);
+}
+
+.header-contacts{
+    list-style: none;
+}
+.header-contact{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    color: var(--rare-color);
+}
+.header-contact:hover,
+.header-contact:focus{
+    color: var(--main-color);
+}
+/* ------------- Ефективні рішення для вашого бізнесу--------------- */
+
+.hero{
+    background-color: #2F303A;
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+
+    color: var(--popular-color);
+}
+
+.hero-btn{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+        
+    color: var(--popular-color);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--main-color);
+    cursor:pointer;
+    }
+
+/* --------------- Список переваг ------------------ */
+
+.preferences-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: var(--def-letter-spacing);
+    text-transform: uppercase;
+
+    color: #212121;
+}
+.preferences{
+    list-style: none;
+}
+.preferences-text{
+    
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: var(--def-letter-spacing);
+}
+
+/*--------------- Чим ми займаємося + Наша команда --------------  */
+.title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: var(--def-letter-spacing);
+    
+        color: #212121;
+}
+.what-we-do-img{
+    list-style: none;
+}
+.team-list{
+    list-style: none;
+}
+.team{
+    background-color: var(--background-color);
+}
+.team-member{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: var(--typical-lh);
+    text-align: center;
+    letter-spacing: var(--def-letter-spacing);
+    
+    color: #212121;
+}
+.team-member-prof{
+    font-size: 16px;
+    line-height: var(--typical-lh);
+    text-align: center;
+    letter-spacing: var(--def-letter-spacing);
+    
+    color: var(--rare-color);
+}
+
+/*------------------ Footer ------------------- */
+
+.footer{
+    background-color: #2F303A;
+}
+.footer-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: var(--typical-lh);
+    letter-spacing: var(--def-letter-spacing);
+    text-decoration: none;
+    
+    color: var(--main-color);
+}
+.footer-logotype{
+    color:var(--popular-color);
+}
+.footer-items{
+    list-style: none;
+}
+.footer-address{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: var(--def-letter-spacing);
+    text-decoration: none;
+    font-style: normal;
+
+    color: var(--popular-color);
+}
+.footer-address:hover,
+.footer-address:focus{
+    color:var(--main-color);
+}
+.footer-contact{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: var(--def-letter-spacing);
+    text-decoration: none;
+    font-style: normal;
+        
+    color: rgba(255, 255, 255, 0.6);
+}
+/* ----------------- Сторінка портфоліо ------------------- */
+
+.header-nav-list{
+    list-style: none;
+}
+.portfolio-buttons{
+    list-style: none;
+}
+.portfolio-button{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;    
+    text-align: center;
+    letter-spacing: var(--def-letter-spacing);
+    cursor: pointer;
+
+    color: #212121;
+    background-color: var(--background-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus{
+    color: var(--popular-color);
+    background-color:var(--main-color);
+}
+
+
+.offers-list{
+    list-style: none;
+}
+
+.offer-name{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    text-decoration: none;
+    
+    color: #212121;
+}
+
+.offer-description{
+        font-size: 16px;
+        line-height: 1.88px;
+        letter-spacing: var(--def-letter-spacing);
+    
+        color: var(--rare-color);
+}
