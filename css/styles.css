@@ -6,6 +6,17 @@
     --typical-lh: 1.19;
     --def-letter-spacing: 0.03em;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -26,10 +37,31 @@ body {
     margin: -1px;
 }
 
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left:auto;
+    margin-right:auto;
+}
 
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 /* ------------- Header --------------- */
 
+.header .container{
+    display: flex;
+    align-items: center;
+
+}
+.header{
+   
+}
 .header-logo{
+        margin-right: 93px; 
+
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 26px;
@@ -42,7 +74,10 @@ body {
 .header-logotype{
     color: #000000;
 }
-.list{
+.header-list{
+    display: flex;
+    column-gap: 50px;
+
     list-style: none;
 }
 .header-link{
@@ -61,6 +96,10 @@ body {
 }
 
 .header-contacts{
+    display: flex;
+    column-gap: 50px;
+    margin-left: auto;
+
     list-style: none;
 }
 .header-contact{
@@ -76,11 +115,20 @@ body {
 .header-contact:focus{
     color: var(--main-color);
 }
-/* ------------- Ефективні рішення для вашого бізнесу--------------- */
+/* ------------- Hero --------------- */
 
 .hero{
+    text-align: center;
+    padding-top: 200px;
+
     background-color: #2F303A;
 }
+.hero .container{
+    padding-right: 252px;
+    padding-left: 252px; 
+}
+
+
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -93,6 +141,12 @@ body {
 }
 
 .hero-btn{
+    display: inline-block;
+    margin-top: 30px;
+
+    min-width: 216px;
+    height: 50px;
+
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
@@ -100,6 +154,8 @@ body {
     align-items: center;
     text-align: center;
         
+    border: 2px solid red;
+
     color: var(--popular-color);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: var(--main-color);
@@ -107,6 +163,10 @@ body {
     }
 
 /* --------------- Список переваг ------------------ */
+
+.preferences > .preferences-item{
+    outline: 2px solid red;
+}
 
 .preferences-title {
     font-weight: 700;
@@ -121,7 +181,7 @@ body {
     list-style: none;
 }
 .preferences-text{
-    
+    outline: 2px solid red;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: var(--def-letter-spacing);
