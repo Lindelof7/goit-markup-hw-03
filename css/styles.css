@@ -288,13 +288,13 @@ body {
 /*------------------ Footer ------------------- */
 
 .footer{
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     background-color: #2F303A;
 }
 
 .footer-logo{
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 60px;
     margin-left: 40px;
 
